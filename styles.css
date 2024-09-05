@@ -34,7 +34,6 @@ body {
     padding: 1rem;
 }
 
-/* Hide scrollbar for Webkit browsers */
 .forms::-webkit-scrollbar {
     display: none;
 }
@@ -92,14 +91,12 @@ select {
     margin-bottom: 1rem;
 }
 
-.gender-options {
-    display: flex;
-    align-items: center;
-    gap: 1rem; /* Space between radio buttons and labels */
+input[type="radio"]{
+    display: inline;
 }
 
 .gender-options label {
-    margin: 0;
+    margin: 0.1rem;
 }
 
 .gender-options input[type="radio"] {
@@ -129,7 +126,6 @@ button[type="reset"]:hover {
     background-color: rgb(122, 10, 2);
 }
 
-/* Image styling */
 .budget-image {
     margin-top: 1rem;
     width: 100%;

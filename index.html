@@ -58,7 +58,6 @@
                 
             </div>
 
-            <!-- Schemes Announced Section -->
             <div class="announcements">
                 <div class="heading">
                     <h2>Schemes Announced in Budget 2024</h2>
@@ -78,13 +77,17 @@
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
 
-                    <label for="gender">Gender:</label>
-                    <input type="radio" id="male" name="gender" value="Male" required>
-                    <label for="male">Male</label>
-                    <input type="radio" id="female" name="gender" value="Female" required>
-                    <label for="female">Female</label>
-                    <input type="radio" id="other" name="gender" value="Other" required>
-                    <label for="other">Other</label>
+                    <div class="gender-section">
+                        <label for="gender">Gender:</label>
+                        <div class="gender-options">
+                            <input type="radio" id="male" name="gender" value="Male" required>
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="Female" required>
+                            <label for="female">Female</label>
+                            <input type="radio" id="other" name="gender" value="Other" required>
+                            <label for="other">Other</label>
+                        </div>
+                    </div>       
         
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
