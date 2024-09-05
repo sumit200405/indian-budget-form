@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Red Hat Display", sans-serif;
+    color: rgb(105,106,108);
+}
+
+body {
+    background-color: rgba(248,249,248,255);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-section {
+    width: 90vw;
+    height: 90vh;
+    background-color: rgba(255,254,254,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.forms {
+    width: 80vw;
+    height: 80vh; 
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 1rem;
+}
+
+/* Hide scrollbar for Webkit browsers */
+.forms::-webkit-scrollbar {
+    display: none;
+}
+
+.list {
+    margin: 2rem;
+}
+
+.heading {
+    margin: 1rem;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(83,213,200);
+    padding: 1rem;
+}
+
+th {
+    color: white;
+    font-size: 20px;
+    border-left: 1px solid;
+}
+
+td {
+    color: white;
+    font-size: 16px;
+    border-left: 1px solid;
+    padding: 1rem;
+}
+
+/* Form styling */
+form {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 0.5rem 0 0.2rem;
+    font-size: 16px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea,
+select {
+    width: 99%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+.gender-options {
+    display: flex;
+    align-items: center;
+    gap: 1rem; /* Space between radio buttons and labels */
+}
+
+.gender-options label {
+    margin: 0;
+}
+
+.gender-options input[type="radio"] {
+    margin-right: 0.3rem;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 1rem;
+    background-color: rgb(83,213,200);
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(96, 191, 182);
+}
+
+button[type="reset"] {
+    background-color: rgb(156, 10, 0);
+}
+
+button[type="reset"]:hover {
+    background-color: rgb(122, 10, 2);
+}
+
+/* Image styling */
+.budget-image {
+    margin-top: 1rem;
+    width: 100%;
+    border-radius: 10px;
+}
